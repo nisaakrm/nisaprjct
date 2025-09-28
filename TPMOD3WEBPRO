@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2" align="left"><h1>Profil Pribadi</h1></th>
+            </tr>
+            <tr>
+                <th>Foto Profil</th>
+                <th>Vidio Perkenalan</th>
+            </tr>
+            <tr>
+                <td></td> <br>
+            </tr>
+            <tr>
+                <td><img src="https://i.pinimg.com/1200x/54/d0/7c/54d07cb9122f5fd234effc59249545ae.jpg" alt="Foto Profil" width="200"></td>
+                <td>
+                    <video width="320" height="240" controls
+poster="https://i.pinimg.com/1200x/54/d0/7c/54d07cb9122f5fd234effc59249545ae.jpg">
+                        <source src="perkenalan.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Tentang saya</h2>
+        Halo! Saya adalah Oh Sehun, member dari salah satu BoyBand Korea yang bernama EXO.
+    </div>
+    <div>
+        <form action="">
+            <table>
+                <tr>
+                    <td>Nama :</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+            <table>
+                <tr></tr>
+                    <td>Pesan :</td>
+                </tr>
+                <tr>
+                    <td><textarea name="pesan" id=""></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+    <div>
+<h2>Media Sosial</h2>
+<a href="https://www.linkedin.com/in/annisah-akram-167159350/">LinkedIn</a> | <a
+href="https://github.com/nisaakrm">GitHub</a> | <a
+href="https://x.com/nisarchv">Twitter</a>
+</div>
+</body>
+</html>
